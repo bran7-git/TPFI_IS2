@@ -1,0 +1,21 @@
+# Credenciales y secretos de AWS (CRÍTICO)
+*credentials*.json
+*.pem
+.aws/
+
+# Archivos de salida temporales de ejecuciones
+output_*.json
+*.log
+
+# Archivos de métricas, cobertura y caché
+.coverage
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.pyc
+
+# Entornos virtuales
+entorno_virtual/
+venv/
+.venv/
