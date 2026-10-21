@@ -6,6 +6,7 @@ from types import SimpleNamespace
 from unittest.mock import MagicMock, mock_open, patch
 
 import pytest
+
 import observerclient
 import singletonclient
 
